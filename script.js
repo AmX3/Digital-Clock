@@ -59,8 +59,8 @@ setInterval(function () {
 
 //changing the appearance of the digitalClock
 function toggleButton() {
-    var digitalClock = document.querySelector(".digitalClock");
+    var digitalClock = document.querySelector(".digital-clock");
     var face = document.querySelector(".face");
-    digitalClock.classList.toggle("darkMode");
-    face.classList.toggle("darkMode");
+    digitalClock.classList.toggle("dark-mode");
+    face.classList.toggle("dark-mode");
 }
