@@ -1,0 +1,68 @@
+* {
+    font-family: "Orbitron", sans-serif;
+}
+
+.container {
+    margin: 0;
+    padding: 200px 100px;
+}
+.handle {
+    position: absolute;
+    top: 185px;
+    right: 550px;
+    height: 20px;
+    width: 350px;
+    background: black;
+    color: white;
+    font-size: 15px;
+    word-spacing: 25px;
+    border-radius: 30px 30px 5px 5px; /*only creating roundness at the top = top/left, top/right, bottom/left, bottom/right*/
+}
+.clock {
+    font-size: 50px;
+}
+.calendar {
+    font-size: 20px;
+}
+.am-pm {
+    font-size: 30px;
+}
+h2 {
+    font-weight: 100;
+}
+i {
+    font-size: 20px;
+}
+/*SWITCHING THEMES*/
+
+/*LIGHT THEME*/
+.digitalClock {
+    background: #e2eafc;
+    color: black;
+    text-align: center;
+    padding: 50px;
+    border-radius: 70px;
+    box-shadow: 36px -30px 0 0 #d7e3fc;
+    letter-spacing: 4px;
+}
+.face {
+    border: 2px solid #d7e3fc;
+    border-radius: 50px;
+    background: #edf2fb;
+}
+
+/*DARK THEME*/
+.darkMode {
+    background: #272e38;
+    color: white;
+    text-align: center;
+    border-radius: 70px;
+    box-shadow: 36px -30px 0 0 rgba(0, 0, 0, 0.897), 0 2px 0px 0;
+    letter-spacing: 4px;
+}
+.darkMode.face {
+    border: 2px solid whitesmoke;
+    border-radius: 50px;
+    background: #0f1620;
+    box-shadow: none;
+}
